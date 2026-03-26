@@ -3,13 +3,6 @@ const path = require('path');
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const calendarDir = path.join(__dirname, '..', 'liturgical-calendar', '2026');
-const outputDir = path.join(__dirname, '..', 'readings', '2026');
-
-if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-}
-
 function parsePage(html) {
     const $ = cheerio.load(html);
     const readings = {};
@@ -68,8 +61,18 @@ async function fetchWithRetry(url) {
     }
 }
 
-async function scrapeReadings() {
-    console.log('Starting final 2026 readings scraper...');
+/**
+ * @param {Number} year 
+ */
+async function scrapeReadings(year) {
+    const calendarDir = path.join(__dirname, '..', 'liturgical-calendar', year.toString());
+    const outputDir = path.join(__dirname, '..', 'readings', year.toString());
+
+    if (!fs.existsSync(outputDir)) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
+
+    console.log(`Starting ${year} readings scraper...`);
     const files = fs.readdirSync(calendarDir).sort();
 
     for (const file of files) {
@@ -114,7 +117,7 @@ async function scrapeReadings() {
                         season: calendarData.season,
                         readings: readingsFallbacks[usccbDate],
                         usccbLink: usccbUrl,
-                        apiEndpoint: `https://cpbjr.github.io/catholic-readings-api/readings/2026/${file}`
+                        apiEndpoint: `https://cpbjr.github.io/catholic-readings-api/readings/${year}/${file}`
                     };
                     fs.writeFileSync(outputPath, JSON.stringify(readingData, null, 2));
                     continue;
@@ -157,7 +160,7 @@ async function scrapeReadings() {
                 season: calendarData.season,
                 readings: readings,
                 usccbLink: usccbUrl,
-                apiEndpoint: `https://cpbjr.github.io/catholic-readings-api/readings/2026/${file}`
+                apiEndpoint: `https://cpbjr.github.io/catholic-readings-api/readings/${year}/${file}`
             };
 
             fs.writeFileSync(outputPath, JSON.stringify(readingData, null, 2));
@@ -174,7 +177,7 @@ async function scrapeReadings() {
         }
     }
 
-    console.log('2026 readings scraping complete!');
+    console.log(`${year} readings scraping complete!`);
 }
 
-scrapeReadings().catch(console.error);
+module.exports = scrapeReadings

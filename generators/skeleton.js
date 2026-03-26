@@ -2,20 +2,24 @@ const fs = require('fs');
 const path = require('path');
 const Romcal = require('romcal');
 
-const outputDir = path.join(__dirname, '..', 'liturgical-calendar', '2026');
-if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-}
+/**
+ * @param {Number} year 
+ */
+async function generate(year) {
 
-async function generate() {
-    console.log('Generating 2026 skeleton...');
+    const outputDir = path.join(__dirname, '..', 'liturgical-calendar', year.toString());
+    if (!fs.existsSync(outputDir)) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
+
+    console.log(`Generating ${year} skeleton...`);
 
     // romcal 1.3.0 uses calendarFor
-    const events = Romcal.calendarFor(2026);
+    const events = Romcal.calendarFor(year);
 
     console.log(`Retrieved ${events.length} events from romcal.`);
 
-    events.forEach(event => {
+    for (const event of events) {
         // romcal 1.3.0 event structure:
         // {
         //   key: 'mary_mother_of_god',
@@ -46,7 +50,7 @@ async function generate() {
                 quote: "",
                 description: ""
             },
-            apiEndpoint: `https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2026/${month}-${day}.json`
+            apiEndpoint: `https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/${year}/${month}-${day}.json`
         };
 
         // If multiple events on same day, this will overwrite. 
@@ -54,9 +58,9 @@ async function generate() {
         // romcal usually sorts by precedence or we can check rank.
         // For now, simple overwrite (highest rank usually comes last or is already filtered).
         fs.writeFileSync(filename, JSON.stringify(celebration, null, 2));
-    });
+    }
 
-    console.log('2026 skeleton generation complete!');
+    console.log(`${year} skeleton generation complete!`);
 }
 
-generate().catch(console.error);
+module.exports = generate
