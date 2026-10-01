@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Memling%2C_Trittico_di_Benedetto_Portinari%2C_San_Benedetto.jpg/500px-Memling%2C_Trittico_di_Benedetto_Portinari%2C_San_Benedetto.jpg"
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Memling%2C_Trittico_di_Benedetto_Portinari%2C_San_Benedetto.jpg/500px-Memling%2C_Trittico_di_Benedetto_Portinari%2C_San_Benedetto.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2026/07-11.json"
 }

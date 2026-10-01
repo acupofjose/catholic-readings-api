@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Giovanni_Battista_Tiepolo_096.jpg/500px-Giovanni_Battista_Tiepolo_096.jpg"
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Giovanni_Battista_Tiepolo_096.jpg/500px-Giovanni_Battista_Tiepolo_096.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2027/04-29.json"
 }

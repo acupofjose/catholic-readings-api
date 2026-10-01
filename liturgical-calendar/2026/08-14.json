@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Fr.Maximilian_Kolbe_in_1936.jpg/500px-Fr.Maximilian_Kolbe_in_1936.jpg"
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Fr.Maximilian_Kolbe_in_1936.jpg/500px-Fr.Maximilian_Kolbe_in_1936.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2026/08-14.json"
 }

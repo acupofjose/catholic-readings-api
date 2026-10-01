@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/2017-03_Brescia_Mattes_Pana_%28111%29.JPG/500px-2017-03_Brescia_Mattes_Pana_%28111%29.JPG"
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/2017-03_Brescia_Mattes_Pana_%28111%29.JPG/500px-2017-03_Brescia_Mattes_Pana_%28111%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2026/10-07.json"
 }

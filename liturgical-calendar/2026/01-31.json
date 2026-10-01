@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Don_Bosco_%40_Torino%2C_1880_%28original%29.jpg/500px-Don_Bosco_%40_Torino%2C_1880_%28original%29.jpg"
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Don_Bosco_%40_Torino%2C_1880_%28original%29.jpg/500px-Don_Bosco_%40_Torino%2C_1880_%28original%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2026/01-31.json"
 }

@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/S%C3%A3o_Jo%C3%A3o_Maria_Vianney.png/500px-S%C3%A3o_Jo%C3%A3o_Maria_Vianney.png"
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/S%C3%A3o_Jo%C3%A3o_Maria_Vianney.png/500px-S%C3%A3o_Jo%C3%A3o_Maria_Vianney.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2027/08-04.json"
 }

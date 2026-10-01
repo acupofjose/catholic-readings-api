@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Padre_Pio_portraitFXD.jpg/500px-Padre_Pio_portraitFXD.jpg"
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Padre_Pio_portraitFXD.jpg/500px-Padre_Pio_portraitFXD.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2026/09-23.json"
 }

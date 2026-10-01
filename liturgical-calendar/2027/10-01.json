@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Teresa-de-Lisieux.jpg/500px-Teresa-de-Lisieux.jpg"
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Teresa-de-Lisieux.jpg/500px-Teresa-de-Lisieux.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2027/10-01.json"
 }

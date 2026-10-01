@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Nicolas_Poussin_-_Sainte_C%C3%A9cile.jpg/500px-Nicolas_Poussin_-_Sainte_C%C3%A9cile.jpg"
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Nicolas_Poussin_-_Sainte_C%C3%A9cile.jpg/500px-Nicolas_Poussin_-_Sainte_C%C3%A9cile.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2027/11-22.json"
 }

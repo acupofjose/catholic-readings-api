@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kleinmariazell_-_Altar_Scholastica_2.jpg/500px-Kleinmariazell_-_Altar_Scholastica_2.jpg"
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Kleinmariazell_-_Altar_Scholastica_2.jpg/500px-Kleinmariazell_-_Altar_Scholastica_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2026/02-10.json"
 }

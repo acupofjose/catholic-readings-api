@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Saint_Justin_Martyr_by_Theophanes_the_Cretan.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Saint_Justin_Martyr_by_Theophanes_the_Cretan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2027/06-01.json"
 }

@@ -7,7 +7,7 @@
     "type": "MEMORIAL",
     "quote": "",
     "description": "",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Galer%C3%ADa_Uffizi%2C_Florencia%2C_Italia%2C_2022_09_18%2C_DD_42_%281%29_%28cropped%29.jpg/500px-Galer%C3%ADa_Uffizi%2C_Florencia%2C_Italia%2C_2022_09_18%2C_DD_42_%281%29_%28cropped%29.jpg"
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Galer%C3%ADa_Uffizi%2C_Florencia%2C_Italia%2C_2022_09_18%2C_DD_42_%281%29_%28cropped%29.jpg/500px-Galer%C3%ADa_Uffizi%2C_Florencia%2C_Italia%2C_2022_09_18%2C_DD_42_%281%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
   },
   "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/liturgical-calendar/2026/06-11.json"
 }
